@@ -196,3 +196,8 @@ wsproto==1.2.0
 yarg==0.1.9
 yfinance==0.2.31
 zipp==3.17.0
+setuptools>=65.5.1
+wheel>=0.38.4
+cython>=0.29.36
+PyYAML==6.0 --only-binary=:all:
+conan>=1.57,<1.60
