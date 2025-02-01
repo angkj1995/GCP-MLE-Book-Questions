@@ -2069,7 +2069,7 @@ def chap11():
             "answer": ["A. Configure a Cloud Storage trigger to send a message to a Pub/Sub topic when a new file is available in a storage bucket. Use a Pub/Sub–triggered Cloud Function to start the training job on GKE."]
         },
         {
-            "question": "You are an ML engineer for a global retail company. You are developing a Kubeflow pipeline on Google Kubernetes Engine for a recommendation system. The first step in the pipeline is to issue a query against BigQuery. You plan to use the results of that query as the input to the next step in your pipeline. Choose two ways you can create this pipeline.",
+            "question": ":red[[Suspected faulty answer]] You are an ML engineer for a global retail company. You are developing a Kubeflow pipeline on Google Kubernetes Engine for a recommendation system. The first step in the pipeline is to issue a query against BigQuery. You plan to use the results of that query as the input to the next step in your pipeline. Choose two ways you can create this pipeline.",
             "options": [
             "A. Use the Google Cloud BigQuery component for Kubeflow Pipelines. Copy that component's URL, and use it to load the component into your pipeline. Use the component to execute queries against a BigQuery table.",
             "B. Use the Kubeflow Pipelines domain‐specific language to create a custom component that uses the Python BigQuery client library to execute queries.",
