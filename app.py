@@ -926,7 +926,7 @@ def chap3():
             "answer": ["A. Cloud Data Fusion"]
         },
         {
-            "question": "You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data. Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data but track your performance on specific subsets of data before pushing to production. What is the most streamlined, scalable, and reliable way to perform this validation?",
+            "question": ":red[[Suspected faulty answer]] You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data. Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data but track your performance on specific subsets of data before pushing to production. What is the most streamlined, scalable, and reliable way to perform this validation?",
             "options": [
             "A. Use the tf.Transform to specify performance metrics for production readiness of the data.",
             "B. Use the entire dataset and treat the area under the receiver operating characteristic curve (AUC ROC) as the main metric.",
