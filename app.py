@@ -2,7 +2,7 @@ import streamlit as st
 
 def sample():
     st.title("Sample Questions")
-    "Material from [Professional Machine Learning Engineer Sample Questions](file:///C:/Users/KJ/Desktop/GCP%20MLE/google%20sample.html)"
+    "Material from [Professional Machine Learning Engineer Sample Questions](https://docs.google.com/forms/d/e/1FAIpQLSeYmkCANE81qSBqLW0g2X7RoskBX9yGYQu-m1TtsjMvHabGqg/viewform)"
 
     questions = [
         {
