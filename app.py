@@ -1954,7 +1954,7 @@ def chap10():
             "answer": ["A. Submit a batch prediction job on Vertex AI that points to input data as a BigQuery table where text data is stored."]
         },
         {
-            "question": "You are a CTO of a global bank and you appointed an ML engineer to build an application for the bank that will be used by millions of customers. Your team has built a forecasting model that predicts customers' account balances three days in the future. Your team will use the results in a new feature that will notify users when their account balance is likely to drop below a certain amount. How should you serve your predictions?",
+            "question": ":red[[Suspected faulty answer]] You are a CTO of a global bank and you appointed an ML engineer to build an application for the bank that will be used by millions of customers. Your team has built a forecasting model that predicts customers' account balances three days in the future. Your team will use the results in a new feature that will notify users when their account balance is likely to drop below a certain amount. How should you serve your predictions?",
             "options": [
             "A. Create a Pub/Sub topic for each user. Deploy a Cloud Function that sends a notification when your model predicts that a user's account balance will drop below the threshold.",
             "B. Create a Pub/Sub topic for each user. Deploy an application on the App Engine environment that sends a notification when your model predicts that a user's account balance will drop below the threshold.",
