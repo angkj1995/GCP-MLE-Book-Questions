@@ -1934,7 +1934,7 @@ def chap10():
  
     questions = [
         {
-            "question": "You are a data scientist working for an online travel agency. You have been asked to predict the most relevant web banner that a user should see next in near real time. The model latency requirements are 300ms@p99, and the inventory is thousands of web banners. You want to implement the simplest solution on Google Cloud. How should you configure the prediction pipeline?",
+            "question": ":red[[Suspected faulty answer]] You are a data scientist working for an online travel agency. You have been asked to predict the most relevant web banner that a user should see next in near real time. The model latency requirements are 300ms@p99, and the inventory is thousands of web banners. You want to implement the simplest solution on Google Cloud. How should you configure the prediction pipeline?",
             "options": [
             "A. Embed the client on the website, and cache the predictions in a data store by creating a batch prediction job pointing to the data warehouse. Deploy the gateway on App Engine, and then deploy the model using Vertex AI Prediction.",
             "B. Deploy the model using TF Serving.",
